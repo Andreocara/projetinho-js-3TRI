@@ -1,3 +1,14 @@
+function tocaSomClap(){
+    document.querySelector("som_tecla_clap").play();
+}
+document.querySelector(".tecla tecla_clap") .onclick = tocaSomClap;
+
+
+
+
+
+
+/*
 function tocaSom (idElementoAudio) {
     document.querySelector(idElementoAudio).play();
 }
